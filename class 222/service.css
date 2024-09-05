@@ -1,0 +1,39 @@
+.ser{
+    color: black;
+    background-color: green;
+    width: 140px;
+    border-radius: 10px;
+}
+.service-section{
+    display: flex;
+    margin-left: 20px;
+    gap: 30px;
+
+}
+.service-para{
+    width: 50%;
+    font-size: 15px;
+}
+.banner {
+    display: flex; /* Use flexbox to align items in a row */
+    gap: 20px; /* Space between the cards */
+}
+
+.card {
+    display: flex;
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    border: 1px solid #ddd; /* Border around the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for card effect */
+    overflow: hidden; /* Hide overflow from the card container */
+    background-color: #fff; /* Background color of the card */
+     /* Padding inside the card */
+     margin-top: 10px;
+}
+
+.card img {
+    max-width: 100%; /* Ensure the image fits within the card */
+    height: auto; /* Maintain aspect ratio of the image */
+    display: block; /* Remove any extra space below the image */
+}

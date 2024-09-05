@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav{
+margin-left: 500px;
+}
+.nav-item{
+margin-left: 1
+2px;
+}
+.main{
+   margin-left: 400px; 
+}
+
+.main-heading{
+    display: flex; /* Use flexbox for alignment */
+    /* align-items: center; Align items vertically centered */
+    gap: 20px; 
+    
+}
+.main-heading1 h1 {
+    margin: 0; /* Remove default margin for better alignment */
+    font-size: 24px; /* Adjust font size as needed */
+}
+.btn-lg{
+    background-color: black;
+}
+.main-pic img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    width: 50%; /* Adjust width as needed */
+}
+.main-heading1{
+    width: 20%;
+}
+.main-p{
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 440px;
+}
+.main-pic{
+    margin-top: 0px;
+}
+.icon-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.icon {
+    font-size: 40px;
+    color: #333;
+    transition: color 0.3s;
+}
+.icon:hover {
+    color: #007bff; /* Change color on hover */
+}
+.netflix { color: #e50914; }
+.dribbble { color: #ea4c89; }
+.hubspot { color: #ff7a59; }
+.amazon { color: #ff9900; }
+.notion { color: #000; }
+.zoom { color: #2d8cff; }
